@@ -1,74 +1,307 @@
-# Appo Music
+<div align="center">
 
-## `About`
+<img width="140" src="https://github.com/isairey.png" />
 
-Appo Music is a full-stack clone of the incredible Apple Music online streaming platform, with an aim to re-create it's core features, seamless design, and excellent user experience.
+# 🎵 Appo Music
 
-Backend:
+### La experiencia de streaming inspirada en Apple Music 🍎🎧
 
--   Ruby on Rails
+<p align="center">
+  Appo Music es una plataforma de streaming musical Full Stack inspirada en Apple Music, diseñada para ofrecer una experiencia elegante, rápida y moderna.
+</p>
 
-Frontend:
+<p align="center">
+  <img src="https://img.shields.io/github/stars/isairey/AppoMusic?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/isairey/AppoMusic?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/isairey/AppoMusic?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/isairey/AppoMusic?style=for-the-badge">
+</p>
 
--   JavaScrip ES6
--   React
--   Redux
+<p align="center">
+  <a href="#-preview">Preview</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
 
-## `Features`
+</div>
 
-### Music Player
+---
 
--   Fully functional music player
--   Clicking/playing a song adds song to music player and automatically creates a queue of next songs
--   Loop/shuffle functionality (setting saved for next session if logged in)
--   "LCD" display with current playback information and relevant links to song artist & album
--   30 Second previews for logged out users
--   Space bar support to play/pause from keyboard
+# 🌊 Acerca de Appo Music
 
-<img src="/readme/musicplayer.gif">
+**Appo Music** es una aplicación Full Stack de streaming musical creada para recrear la experiencia visual y funcional de Apple Music.
 
-### Search
+El proyecto incluye un reproductor avanzado, sistema de playlists, búsqueda en tiempo real y autenticación de usuarios, ofreciendo una interfaz moderna y una experiencia fluida tanto en escritorio como en dispositivos móviles.
 
--   Live search the entire database
--   Results seperated by appropriate categories
--   Selecting a result leads to relevant page
+---
 
-<img src="/readme/search.gif">
+# ✨ Características
 
-### Artist Page
+## 🎧 Reproductor Musical
 
--   Displays most recent release and chronological discography
--   Live list of top songs – calculated by play count
-    -   Selecting a top songs leads to album that contains it, hightlights song, and brings it into view for easy selection
--   Quickplay
-    -   Start playback of artist's most popular songs
--   Artist description modal
+- ▶️ Reproducción completa de canciones
+- 📂 Cola automática de reproducción
+- 🔀 Función Shuffle
+- 🔁 Función Loop
+- 💾 Configuración guardada por usuario
+- ⌨️ Control mediante barra espaciadora
+- 📀 Información de canción y álbum en tiempo real
 
-<img src="/readme/artist.gif">
+<div align="center">
+<img src="/readme/musicplayer.gif" width="900"/>
+</div>
 
-### Album Page
+---
 
--   Displays album track listing and information
--   Ability to save individual songs or entire album to user library
--   Ability to add song to playlist
+## 🔍 Búsqueda Inteligente
 
-<img src="/readme/album.gif">
+- ⚡ Búsqueda en tiempo real
+- 🎵 Resultados organizados por categorías
+- 👨‍🎤 Búsqueda de artistas, canciones y álbumes
+- 🚀 Navegación instantánea
 
-### Playlist CRUD
+<div align="center">
+<img src="/readme/search.gif" width="900"/>
+</div>
 
--   User can create, rename, delete and add songs to playlist
--   Playlist page contains all playlist songs with a rotating display of their album's cover artwork
+---
 
-<img src="/readme/playlist.gif">
+## 👨‍🎤 Página de Artistas
 
-### User Authentication
+- 📀 Discografía completa
+- 🔥 Canciones más populares
+- ▶️ Reproducción rápida
+- 📝 Información detallada del artista
 
--   Simple, yet elegant modal for user account creation and login
--   Demo user provided with automatic login functionality
+<div align="center">
+<img src="/readme/artist.gif" width="900"/>
+</div>
 
-<img src="/readme/auth.gif">
+---
 
-## `Future Features`
+## 💿 Página de Álbumes
 
--   Up/arrow/enter key functionality on album/playlist pages
--   Improved mobile compatibility
+- 🎵 Lista completa de canciones
+- ❤️ Guardar álbumes y canciones
+- ➕ Agregar canciones a playlists
+
+<div align="center">
+<img src="/readme/album.gif" width="900"/>
+</div>
+
+---
+
+## 📂 Sistema de Playlists
+
+- ➕ Crear playlists
+- ✏️ Renombrar playlists
+- 🗑️ Eliminar playlists
+- 🎶 Agregar canciones
+- 🖼️ Covers dinámicos automáticos
+
+<div align="center">
+<img src="/readme/playlist.gif" width="900"/>
+</div>
+
+---
+
+## 🔐 Autenticación
+
+- 👤 Registro e inicio de sesión
+- ⚡ Login rápido
+- 🎭 Usuario Demo
+- 🎨 Modal elegante inspirado en Apple Music
+
+<div align="center">
+<img src="/readme/auth.gif" width="900"/>
+</div>
+
+---
+
+# 🛠️ Tecnologías Utilizadas
+
+## 🎨 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,redux,javascript,html,css" />
+</p>
+
+- ⚛️ React
+- 📦 Redux
+- 📜 JavaScript ES6
+- 🎨 HTML5 + CSS3
+
+---
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ruby,rails" />
+</p>
+
+- 💎 Ruby
+- 🚂 Ruby on Rails
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,npm" />
+</p>
+
+- Git & GitHub
+- VS Code
+- npm
+
+---
+
+# 📂 Estructura del Proyecto
+
+```bash
+AppoMusic/
+│
+├── frontend/          # React + Redux
+├── backend/           # Ruby on Rails API
+├── readme/            # GIFs y recursos
+├── public/
+└── README.md
+```
+
+---
+
+# ⚡ Instalación
+
+## 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/isairey/AppoMusic.git
+cd AppoMusic
+```
+
+---
+
+# 🔥 Configuración del Backend
+
+```bash
+bundle install
+rails db:create
+rails db:migrate
+rails server
+```
+
+Servidor Rails:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+# 🎵 Configuración del Frontend
+
+```bash
+npm install
+npm start
+```
+
+Aplicación disponible en:
+
+```bash
+http://localhost:8080
+```
+
+---
+
+# 🚀 Funciones Destacadas
+
+- 🎧 Streaming musical
+- 🔍 Live Search
+- ❤️ Biblioteca personalizada
+- 📂 Sistema CRUD de playlists
+- 🔐 Autenticación segura
+- ⚡ UI inspirada en Apple Music
+- 📱 Diseño responsive
+
+---
+
+# 📊 Roadmap
+
+- ✅ Reproductor avanzado
+- ✅ Sistema de playlists
+- ✅ Búsqueda en tiempo real
+- 🔄 Mejor compatibilidad móvil
+- 🔄 Atajos de teclado avanzados
+- 🔄 Letras sincronizadas
+- 🔄 Descargas offline
+- 🔄 Recomendaciones inteligentes
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Pasos para contribuir
+
+1. Haz Fork del proyecto
+2. Crea una rama
+
+```bash
+git checkout -b feature/nueva-funcion
+```
+
+3. Realiza tus cambios
+4. Haz commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+5. Haz push
+
+```bash
+git push origin feature/nueva-funcion
+```
+
+6. Abre un Pull Request 🚀
+
+---
+
+# 👨‍💻 Autor
+
+<div align="center">
+
+<img src="https://github.com/isairey.png" width="120" style="border-radius:50%" />
+
+## Isai Reyes
+
+Desarrollador Full Stack apasionado por la música, interfaces modernas y aplicaciones multimedia.
+
+</div>
+
+---
+
+# 🌟 Apoya el Proyecto
+
+Si te gusta Appo Music:
+
+⭐ Dale una estrella al repositorio  
+🍴 Haz Fork del proyecto  
+📢 Compártelo con otros desarrolladores
+
+---
+
+# 📜 Licencia
+
+Este proyecto está bajo la licencia **MIT**.
+
+---
+
+<div align="center">
+
+### 🎶 Appo Music — Música sin límites.
+
+</div>
