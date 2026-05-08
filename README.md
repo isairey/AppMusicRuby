@@ -2,7 +2,7 @@
 
 <img width="140" src="https://github.com/isairey.png" />
 
-# 🎵 AppMusicRuby Appo Music
+# 🎵 AppMusic Ruby Appo Music
 
 ### La experiencia de streaming inspirada en Apple Music 🍎🎧
 
