@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/isairey/AppoMusic?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/isairey/AppoMusic?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/isairey/AppoMusic?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/isairey/AppoMusic?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/isairey/AppMusicRuby?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/isairey/AppMusicRuby?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/isairey/AppMusicRuby?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/isairey/AppMusicRuby?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -177,8 +177,8 @@ AppoMusic/
 ## 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/isairey/AppoMusic.git
-cd AppoMusic
+git clone https://github.com/isairey/AppMusicRuby.git
+cd AppMusicRuby
 ```
 
 ---
