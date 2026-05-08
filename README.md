@@ -2,7 +2,7 @@
 
 <img width="140" src="https://github.com/isairey.png" />
 
-# 🎵 Appo Music
+# 🎵 AppMusicRuby Appo Music
 
 ### La experiencia de streaming inspirada en Apple Music 🍎🎧
 
@@ -302,6 +302,6 @@ Este proyecto está bajo la licencia **MIT**.
 
 <div align="center">
 
-### 🎶 Appo Music — Música sin límites.
+### 🎶 AppMusicRuby Appo Music — Música sin límites.
 
 </div>
