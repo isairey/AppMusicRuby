@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Appo Music</title>
+     <meta name="title" property="og:title" content="Appo Music" />
+     <meta name="image" property='og:image' content="<%= image_url('banner.png') %>"/>
+     <meta name="description" property="og:description"
+       content="Appo Music is a full-stack clone of the incredible Apple Music online streaming platform, with an aim to re-create it's core features, seamless design, and excellent user experience."
+     />
+     <meta property="og:url" content="https://appo-music.herokuapp.com/"/>
+     <meta name="author" content="Ori Ravid"/>
+
+    <link rel="icon" 
+      type="image/png" 
+      href="<%= image_url('favicon.png') %>">    
+     
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">  
+    <%= javascript_include_tag 'application' %>
+    <% if current_user %>
+      <script>
+        window.currentUser = {
+          "id": <%= current_user.id %>,
+          "username": "<%= current_user.username %>",
+          "settings": {
+            loop: <%= current_user.settings.loop %>, 
+            shuffle: <%= current_user.settings.shuffle %>}
+        }
+      </script>
+    <% end %>
+      <!-- <script>
+         window.logo = "<#%= image_url('logo.png') %>"
+      </script> -->
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
